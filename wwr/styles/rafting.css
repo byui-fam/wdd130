@@ -1,0 +1,74 @@
+@import url(https://fonts.google.com/specimen/Open+Sans);
+
+:root {
+    --primary-color:blue;
+    --secondary-color: #f1c40f;
+    --background-color: #f9f9f9;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, p {
+    color: blue;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--secondary-color);
+}
+
+article p {
+    position: absolute;
+    float: right;
+    right: 50%;
+    top: 50%;
+    bottom: 0;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+
+article img {
+    position: absolute;
+    float: right;
+    left: 50%;
+    top: 50%;
+    bottom: 0;
+    width: 2rem;
+    height: 1rem;
+}
+
+section img {
+    display: block;
+    width: 50%;
+    padding: 1rem;
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+.sociallinks img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}

@@ -1,74 +1,97 @@
 @import url(https://fonts.google.com/specimen/Open+Sans);
 
 :root {
-    --primary-color:blue;
+    --primary-color: #3498db;
     --secondary-color: #f1c40f;
     --background-color: #f9f9f9;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    max-width: 1200px;
-    margin: 0 auto;
+h1, h2, p {
+    color: var(--primary-color);
+      font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, p {
-    color: blue;
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
 }
 
 .hero {
     position: relative;
-}
-
-.hero img {
-    position: absolute;
-    top: 50%;
-    display: block;
-    width: 100%;
-    height: auto;
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero h1 {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--secondary-color);
 }
 
-article p {
-    position: absolute;
-    float: right;
-    right: 50%;
-    top: 50%;
-    bottom: 0;
-    background-color: whitesmoke;
-    padding: 20px;
-}
 
 
-article img {
-    position: absolute;
-    float: right;
-    left: 50%;
-    top: 50%;
-    bottom: 0;
-    width: 2rem;
-    height: 1rem;
-}
-
-section img {
+.hero img {
     display: block;
-    width: 50%;
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+.hero article {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 1rem;
 }
 
-.sociallinks a {
-    text-decoration: none;
+.hero article img {
+    float: right;
+    width: 20%;
+    height: auto;
+    margin: 1rem;
 }
 
-.sociallinks img {
-    width: 30px;
-    height: 30px;
-    margin: 10px;
+.hero article p {
+    float: left;
+}
+
+footer {
+    background-color: var(--background-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    color: var(--primary-color);
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav a {
+    margin-right: 2rem;
+}
+
+footer nav img {
+    width: 2rem;
+    height: auto;
 }

@@ -6,12 +6,6 @@
     --background-color: #f9f9f9;
 } 
 
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-}
-
 h1, h2, p {
     color: var(--primary-color);
       font-family: 'Open Sans', sans-serif;

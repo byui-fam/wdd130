@@ -1,0 +1,73 @@
+@import "https://fonts.google.com/specimen/Open+Sans";
+
+:root {        
+    --primary-color: #00B9E8;
+    --secondary-color: #00FFB5;
+    --background-color: #C0C0C0;
+    --accent-color: #555D50;
+}    
+
+h1, h2, p {
+    color: #00B9E8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.hero {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #00FFB5;
+}
+
+.hero img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+.hero article {
+    position: absolute;
+    top: 50%;
+    background-color: #C0C0C0;
+    padding: 1rem;
+}
+
+.hero article img {
+    float: right;
+    width: 20%;
+    height: auto;
+    margin: 1rem;
+}
+
+.hero article p {
+    float: left;
+}
+
+.sociallinks a {
+    text-decoration: none;
+}

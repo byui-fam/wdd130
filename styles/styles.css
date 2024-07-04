@@ -72,6 +72,13 @@ footer {
     color: #000;
 }
 
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+
+
 aside {
     width: 20em;
     text-align: center;
@@ -83,7 +90,7 @@ aside h2 {
     left: 100px;
 }
 
-header, footer {
+header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
 }

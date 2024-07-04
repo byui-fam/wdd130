@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-main {
+/*main {
     max-width: fit-content;
-}
+}*/
 
 nav {
     background-color: steelblue;
@@ -22,7 +22,7 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #fff; /% shorthand for white %/
+    color: #fff;
 }
 
 h1 {
@@ -64,7 +64,6 @@ footer {
     text-align: center; 
 }
 
-/* Class Selector */
 .box {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
@@ -77,10 +76,16 @@ footer {
     align-items: center;
 }
 
-
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
 
 aside {
     width: 20em;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
     text-align: center;
 }
 

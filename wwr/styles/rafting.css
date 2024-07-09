@@ -125,7 +125,7 @@ h1, h2, p {
 
   .adventures {
     display: grid;
-    grid-template-columns: repeat(aut0-fit, minmax(200px,1fr));
+    grid-template-columns: grid;
     gap: 10px;
    }
    
@@ -139,7 +139,7 @@ h1, h2, p {
    }
 
    .adventure figure img {
-    display: block;
+    display: flex;
     max-width: 220px;
    }
    

@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Roboto+Serif?query=serif=optional-2nd-specimen/Open+Sans?query=sans');
+@import url('https://fonts.google.com/specimen/sans-serif+Serif?query=serif=optional-2nd-specimen/Open+Sans?query=sans');
 
 body {
     font-family: var(--paragraph-font);
@@ -125,7 +125,7 @@ h1, h2, p {
 
   .adventures {
     display: grid;
-    grid-template-columns: grid;
+    grid-template-columns: auto;
     gap: 10px;
    }
    

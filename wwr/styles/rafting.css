@@ -195,31 +195,75 @@ form input[type="checkbox"] {
 }
 
 form button {
-    display: inline-block;
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  display: inline-block;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+ cursor: pointer;
 }
 
 form button:hover {
-    background-color: #0056b3;
+  background-color: #396e94;
 }
 
 iframe {
-    width: 100%;
-    height: 300px;
-    border: none;
+  width: 100%;
+  height: 300px;
+  border: none;
 }
 
-  footer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
 
-  .sociallinks a {
-    text-decoration: none;
+section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+section ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+}
+
+section li {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+section li:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sociallinks a {
+  text-decoration: none;
 }
